@@ -9,12 +9,10 @@
   height: 400px;
   padding: 3px 36px;
 }
+
 #home::before {
   height: 500px;
-}
-#home::before {
-  height: 500px;
-  background: url("bg.jpg") no-repeat center center/120% 100%;
+  background: url("../img/bg.jpg") no-repeat center center/120% 100%;
 }
 #home p {
   font-size: 0.8rem;
@@ -48,3 +46,18 @@
 .right {
   right: 5px;
 }
+/*.otherhome {
+  height: 100vh;
+  padding: 3px 36px;
+  border: 2px solid red;
+
+  background: url("../img/bg.jpg") no-repeat center center/120% 100%;
+}
+
+.otherhome::before {
+  height: 100%;
+  background: url("../img/bg.jpg") no-repeat center center/120% 100%;
+}
+.otherhome p {
+  font-size: 0.8rem;
+}*/
